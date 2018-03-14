@@ -1,0 +1,9 @@
+使用git remote -v 查看远程状态
+
+1.添加被同步的远程上有仓库
+git remote add upstream xxxxxx(被fork的源项目地址)
+
+2.同步fork最新代码
+git fetch upstream
+
+3.切换到clone代码的master分支 git merge upstream/master 把fork的代码合并到自己的master上面
